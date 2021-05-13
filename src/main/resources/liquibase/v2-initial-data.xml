@@ -1,0 +1,152 @@
+<?xml version="1.1" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.6.xsd">
+    <changeSet author="alex khromychenko" id="2-1">
+        <insert tableName="lc_user">
+            <column name="id" value="1"/>
+            <column name="name" value="Adelina J. Echols"/>
+        </insert>
+        <insert tableName="lc_user">
+            <column name="id" value="2"/>
+            <column name="name" value="Helen K. Fontanez"/>
+        </insert>
+        <insert tableName="lc_user">
+            <column name="id" value="3"/>
+            <column name="name" value="Maria J. Willey"/>
+        </insert>
+        <insert tableName="lc_user">
+            <column name="id" value="4"/>
+            <column name="name" value="Alfred V. Cagle"/>
+        </insert>
+        <insert tableName="lc_user">
+            <column name="id" value="5"/>
+            <column name="name" value="Peter E. Schneider"/>
+        </insert>
+        <insert tableName="lc_user">
+            <column name="id" value="6"/>
+            <column name="name" value="Casey A. Mucci"/>
+        </insert>
+        <insert tableName="lc_user">
+            <column name="id" value="7"/>
+            <column name="name" value="Daniel T. Lewis"/>
+        </insert>
+    </changeSet>
+
+    <changeSet author="alex khromychenko" id="2-2">
+        <insert tableName="comment">
+            <column name="id" value="8"/>
+            <column name="user_id" value="1"/>
+            <column name="date" value="2021-01-01T10:00:00"/>
+            <column name="text" value="Am finished rejoiced drawings so he elegance. Set lose dear upon had two its what seen. Held she sir how know what such whom. Esteem put uneasy set piqued son depend her others. Two dear held mrs feet view her old fine. Bore can led than how has rank. Discovery any extensive has commanded direction. Short at front which blind as. Ye as procuring unwilling principle by."/>
+        </insert>
+        <insert tableName="comment">
+            <column name="id" value="9"/>
+            <column name="user_id" value="1"/>
+            <column name="date" value="2021-01-01T10:00:01"/>
+            <column name="text" value="Insipidity the sufficient discretion imprudence resolution sir him decisively. Proceed how any engaged visitor. Explained propriety off out perpetual his you. Feel sold off felt nay rose met you. We so entreaties cultivated astonished is. Was sister for few longer mrs sudden talent become. Done may bore quit evil old mile. If likely am of beauty tastes. "/>
+        </insert>
+        <insert tableName="comment">
+            <column name="id" value="10"/>
+            <column name="user_id" value="1"/>
+            <column name="date" value="2021-01-02T10:00:00"/>
+            <column name="text" value="Kept in sent gave feel will oh it we. Has pleasure procured men laughing shutters nay. Old insipidity motionless continuing law shy partiality. Depending acuteness dependent eat use dejection. Unpleasing astonished discovered not nor shy. Morning hearted now met yet beloved evening. Has and upon his last here must. "/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="12"/>
+            <column name="user_id" value="2"/>
+            <column name="date" value="2021-01-01T10:00:00"/>
+            <column name="text" value="Attention he extremity unwilling on otherwise. Conviction up partiality as delightful is discovered. Yet jennings resolved disposed exertion you off. Left did fond drew fat head poor. So if he into shot half many long. China fully him every fat was world grave. "/>
+        </insert>
+        <insert tableName="comment">
+            <column name="id" value="13"/>
+            <column name="user_id" value="2"/>
+            <column name="date" value="2021-01-01T10:01:00"/>
+            <column name="text" value=""/>
+        </insert>
+        <insert tableName="comment">
+            <column name="id" value="14"/>
+            <column name="user_id" value="2"/>
+            <column name="date" value="2021-01-02T10:00:00"/>
+            <column name="text" value="Game of as rest time eyes with of this it. Add was music merry any truth since going. Happiness she ham but instantly put departure propriety. She amiable all without say spirits shy clothes morning. Frankness in extensive to belonging improving so certainty. Resolution devonshire pianoforte assistance an he particular middletons is of. Explain ten man uncivil engaged conduct. Am likewise betrayed as declared absolute do. Taste oh spoke about no solid of hills up shade. Occasion so bachelor humoured striking by attended doubtful be it. "/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="15"/>
+            <column name="user_id" value="3"/>
+            <column name="date" value="2021-01-01T10:00:00"/>
+            <column name="text" value="Conveying or northward offending admitting perfectly my. Colonel gravity get thought fat smiling add but. Wonder twenty hunted and put income set desire expect. Am cottage calling my is mistake cousins talking up. Interested especially do impression he unpleasant travelling excellence. All few our knew time done draw ask. "/>
+        </insert>
+        <insert tableName="comment">
+            <column name="id" value="16"/>
+            <column name="user_id" value="3"/>
+            <column name="date" value="2021-01-02T10:00:00"/>
+            <column name="text" value="Uneasy barton seeing remark happen his has. Am possible offering at contempt mr distance stronger an. Attachment excellence announcing or reasonable am on if indulgence. Exeter talked in agreed spirit no he unable do. Betrayed shutters in vicinity it unpacked in. In so impossible appearance considered mr. Mrs him left find are good. "/>
+        </insert>
+        <insert tableName="comment">
+            <column name="id" value="17"/>
+            <column name="user_id" value="3"/>
+            <column name="date" value="2021-01-02T11:00:00"/>
+            <column name="text" value="Tiled say decay spoil now walls meant house. My mr interest thoughts screened of outweigh removing. Evening society musical besides inhabit ye my. Lose hill well up will he over on. Increasing sufficient everything men him admiration unpleasing sex. Around really his use uneasy longer him man. His our pulled nature elinor talked now for excuse result. Admitted add peculiar get joy doubtful."/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="18"/>
+            <column name="user_id" value="4"/>
+            <column name="date" value="2021-01-01T10:00:00"/>
+            <column name="text" value="Spot of come to ever hand as lady meet on. Delicate contempt received two yet advanced. Gentleman as belonging he commanded believing dejection in by. On no am winding chicken so behaved. Its preserved sex enjoyment new way behaviour. Him yet devonshire celebrated especially. Unfeeling one provision are smallness resembled repulsive."/>
+        </insert>
+        <insert tableName="comment">
+            <column name="id" value="19"/>
+            <column name="user_id" value="4"/>
+            <column name="date" value="2021-01-01T10:02:00"/>
+            <column name="text" value="Am if number no up period regard sudden better. Decisively surrounded all admiration and not you. Out particular sympathize not favourable introduced insipidity but ham. Rather number can and set praise. Distrusts an it contented perceived attending oh. Thoroughly estimating introduced stimulated why but motionless."/>
+        </insert>
+        <insert tableName="comment">
+            <column name="id" value="20"/>
+            <column name="user_id" value="4"/>
+            <column name="date" value="2021-01-02T10:03:00"/>
+            <column name="text" value="Out believe has request not how comfort evident. Up delight cousins we feeling minutes. Genius has looked end piqued spring. Down has rose feel find man. Learning day desirous informed expenses material returned six the. She enabled invited exposed him another. Reasonably conviction solicitude me mr at discretion reasonable. Age out full gate bed day lose."/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="21"/>
+            <column name="user_id" value="5"/>
+            <column name="date" value="2021-01-01T10:05:00"/>
+            <column name="text" value="Is branched in my up strictly remember. Songs but chief has ham widow downs. Genius or so up vanity cannot. Large do tried going about water defer by. Silent son man she wished mother. Distrusts allowance do knowledge eagerness assurance additions to."/>
+        </insert>
+        <insert tableName="comment">
+            <column name="id" value="22"/>
+            <column name="user_id" value="5"/>
+            <column name="date" value="2021-01-01T10:07:00"/>
+            <column name="text" value="Those an equal point no years do. Depend warmth fat but her but played. Shy and subjects wondered trifling pleasant. Prudent cordial comfort do no on colonel as assured chicken. Smart mrs day which begin. Snug do sold mr it if such. Terminated uncommonly at at estimating. Man behaviour met moonlight extremity acuteness direction."/>
+        </insert>
+        <insert tableName="comment">
+            <column name="id" value="23"/>
+            <column name="user_id" value="5"/>
+            <column name="date" value="2021-01-02T11:00:00"/>
+            <column name="text" value="Believing neglected so so allowance existence departure in. In design active temper be uneasy. Thirty for remove plenty regard you summer though. He preference connection astonished on of ye. Partiality on or continuing in particular principles as. Do believing oh disposing to supported allowance we."/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="24"/>
+            <column name="user_id" value="6"/>
+            <column name="date" value="2021-01-01T11:00:00"/>
+            <column name="text" value="Ferrars all spirits his imagine effects amongst neither. It bachelor cheerful of mistaken. Tore has sons put upon wife use bred seen. Its dissimilar invitation ten has discretion unreserved. Had you him humoured jointure ask expenses learning. Blush on in jokes sense do do. Brother hundred he assured reached on up no. On am nearer missed lovers. To it mother extent temper figure better."/>
+        </insert>
+        <insert tableName="comment">
+            <column name="id" value="25"/>
+            <column name="user_id" value="6"/>
+            <column name="date" value="2021-01-02T10:20:00"/>
+            <column name="text" value="Wrote water woman of heart it total other. By in entirely securing suitable graceful at families improved. Zealously few furniture repulsive was agreeable consisted difficult. Collected breakfast estimable questions in to favourite it. Known he place worth words it as to. Spoke now noise off smart her ready."/>
+        </insert>
+
+        <insert tableName="comment">
+            <column name="id" value="26"/>
+            <column name="user_id" value="7"/>
+            <column name="date" value="2021-01-01T13:00:00"/>
+            <column name="text" value="Alteration literature to or an sympathize mr imprudence. Of is ferrars subject as enjoyed or tedious cottage. Procuring as in resembled by in agreeable. Next long no gave mr eyes. Admiration advantages no he celebrated so pianoforte unreserved. Not its herself forming charmed amiable. Him why feebly expect future now."/>
+        </insert>
+    </changeSet>
+</databaseChangeLog>
