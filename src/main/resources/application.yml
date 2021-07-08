@@ -14,7 +14,6 @@ spring:
         ddl-auto: false
         temp:
           use_jdbc_metadata_defaults: false
-        enable_lazy_load_no_trans: true
         hbm2ddl:
           auto: validate
         jdbc:
@@ -22,6 +21,7 @@ spring:
             non_contextual_creation: true
         format_sql: true
     show-sql: true
+    open-in-view: false
   liquibase:
     change-log: classpath:/liquibase/main.xml
     enabled: true
